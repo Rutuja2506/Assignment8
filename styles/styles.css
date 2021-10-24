@@ -62,3 +62,29 @@ tr td:last-of-type {
 {
 padding-right: 3em;
 }
+
+#display_employees td, th 
+{
+    border: 1px solid white;
+    width: 9em;
+    text-align: center;
+}
+
+#display_employees th
+{
+    background: rgb(55, 55, 126);
+    color: white;
+}
+
+#display_employees tr:nth-child(even)
+{
+    background: rgb(191, 191, 211);
+}
+#display_employees tr:nth-child(odd)
+{
+    background: rgb(239, 239, 245);
+}
+#name_e, #title_e, #ext_e
+{
+    color: red;
+}

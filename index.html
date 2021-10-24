@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/styles.css" rel="stylesheet">
     <title>Employment Management System</title>
+    <script src="js/employee_mangement_system.js"></script>
 </head>
 <body>
     <h1>Employment Management Application</h1>
     <h2>Add Employee</h2>
-    <form>
+    <form id="Employee">
         <table id="Add_Emp">
-            <tr><td>Name</td><td><input type="text" id="name" value size="30"></td></tr>
-            <tr><td>Title</td><td><input type="text" id="title" value size="30"></td></tr>
-            <tr><td>Extension</td><td><input type="text" id="ext" value size="30"></td></tr>
+            <tr><td>Name</td><td><input type="text" id="name" value size="30"></td><td id="name_e"></td></tr>
+            <tr><td>Title</td><td><input type="text" id="title" value size="30"></td><td id="title_e"></td></tr>
+            <tr><td>Extension</td><td><input type="text" id="ext" value size="30"></td><td id="ext_e"></td></tr>
             <tr><td></td><td><input type="button" value ="Add" id="add"></td></tr>
         </table>
     </form>
