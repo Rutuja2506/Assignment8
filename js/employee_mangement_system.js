@@ -2,7 +2,7 @@ var $ = function (id) {
     "use strict";
     return document.getElementById(id);
 };
-var emp = [["Ketaki", "Manager", 6434], ["Joe", "Team Lead", 2343], ["Rea", "Sr. Developer", 4343], ["Anita", "Sr. Developer", 4546], ["John", "Sr. Developer", 8789]];
+var emp = [["Mayra", "Manager", 6989], ["Mihira", "Team Lead", 2890], ["Disha", "Sr. Developer", 4004], ["Anita", "Sr. Developer", 4546], ["Alex", "Sr. Developer", 5678]];
 //window.console.log(emp);
 
 function myfunction(empl)

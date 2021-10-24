@@ -8,6 +8,7 @@ padding-left: 3em;
 form{
     display: block;
     margin-top: 0em;
+    
 }
 h1
 {
@@ -45,7 +46,7 @@ input[type="button"] {
     border: 1px solid grey;
 }
 tr{
-    text-align: center;
+    
     width: 80px;
    
 }  
